@@ -33,8 +33,8 @@
             "stylePreprocessorOptions": {
               "includePaths": [
                 "node_modules"
-              	]
-							},
+              ]
+            },
             "scripts": []
           },
           "configurations": {
@@ -122,8 +122,13 @@
               "devServerTarget": "city-blocks:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "city-blocks"
 }
